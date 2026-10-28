@@ -1,0 +1,154 @@
+* { margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body{background-color: blueviolet;
+font-family: sans-serif;}
+
+.general{
+    padding: 60px 120px;
+    
+    background-color: #252D4B;
+width: 80%;
+border-radius: 15px;
+margin-top: 120px;
+margin-left: 120px;;
+}
+
+.logo{  
+color: white;
+font-size: 20px;}
+
+.navlinks{
+    display: flex;
+    gap: 25px;}
+
+.navlinks a{ color: white;
+text-decoration: none;
+;
+}
+.navabar{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.photo{background-color: #ffc400;
+     border-radius: 300px;
+    width: 250px;
+    height: 250px;
+    margin-top: 40px;
+}
+
+.me{width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100px;
+    border: 2px solid white;
+    margin-top: 30px;
+    margin-left: 26px;
+    overflow: hidden;
+
+    
+
+}
+
+
+.sect-2{display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 30px;}
+
+
+h1{color: white;
+margin-bottom: 20px;
+font-size: 20px;}
+
+.from{ color: grey;
+
+font-size: 12px;
+margin-bottom: 10px;
+}
+
+.into{ color:white ;}
+
+.end{ color: #ffc400;}
+
+
+.button{display: flex;
+gap: 20px;
+
+}
+
+.button a { padding: 4px;
+border-radius: 30px;
+text-decoration: none;
+color: black;
+margin-top: 30px;
+}
+
+.biscult{ background-color: #8fd1f5;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 10px;
+border-radius: 40px;
+
+}
+.pics{border-radius: 20px;}
+
+.call{ background-color: #e8b6f5;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 10px;
+border-radius: 40px;
+}
+
+.phone{background-color: #ffc400;
+
+border-radius: 20px;
+padding: 5px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 8px;
+font-weight: bold;
+margin-left: 40px;
+
+
+}
+
+.phone a{color: black;}
+
+.About{  
+    margin-right: 60px;
+}
+
+@media(max-width:768px){
+    .general{ width: 95%;
+    padding: 20px;
+margin: 20px auto;
+}
+.navabar{
+    flex-direction:column;
+    gap: 15px;
+    text-align: center;
+
+}
+
+.sect-2{
+    flex-direction: column;
+    text-align: center;
+
+}
+.About{ margin-right: 0;}
+
+.phone{ 
+    margin-left: 0;
+
+}
+.me{ margin-right: 23px;
+}
+}
